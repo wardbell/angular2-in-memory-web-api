@@ -1,4 +1,4 @@
-System.register(['angular2/core', 'angular2/http', 'rxjs/Observable', 'rxjs/add/operator/delay', './http-status-codes'], function(exports_1, context_1) {
+System.register(['@angular/core', '@angular/http', 'rxjs/Observable', 'rxjs/add/operator/delay', './http-status-codes'], function(exports_1, context_1) {
     "use strict";
     var __moduleName = context_1 && context_1.id;
     var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
@@ -66,7 +66,7 @@ System.register(['angular2/core', 'angular2/http', 'rxjs/Observable', 'rxjs/add/
              * Register both this service and the seed data as in:
              * ```
              * // other imports
-             * import { HTTP_PROVIDERS, XHRBackend } from 'angular2/http';
+             * import { HTTP_PROVIDERS, XHRBackend } from '@angular/http';
              * import { InMemoryBackendConfig, InMemoryBackendService, SEED_DATA } from '../in-memory-backend/in-memory-backend.service';
              * import { InMemoryStoryService } from '../api/in-memory-story.service';
              *
@@ -375,7 +375,7 @@ System.register(['angular2/core', 'angular2/http', 'rxjs/Observable', 'rxjs/add/
                 InMemoryBackendService = __decorate([
                     __param(0, core_1.Inject(SEED_DATA)),
                     __param(1, core_1.Inject(InMemoryBackendConfig)),
-                    __param(1, core_1.Optional()), 
+                    __param(1, core_1.Optional()),
                     __metadata('design:paramtypes', [Object, Object])
                 ], InMemoryBackendService);
                 return InMemoryBackendService;
