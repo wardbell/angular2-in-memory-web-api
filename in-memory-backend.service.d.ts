@@ -1,5 +1,5 @@
-import { OpaqueToken } from 'angular2/core';
-import { Headers, Request, Response, ResponseOptions } from 'angular2/http';
+import { OpaqueToken } from '@angular/core';
+import { Headers, Request, Response, ResponseOptions } from '@angular/http';
 import { Observable } from 'rxjs/Observable';
 import 'rxjs/add/operator/delay';
 /**
@@ -81,7 +81,7 @@ export declare const isSuccess: (status: number) => boolean;
  * Register both this service and the seed data as in:
  * ```
  * // other imports
- * import { HTTP_PROVIDERS, XHRBackend } from 'angular2/http';
+ * import { HTTP_PROVIDERS, XHRBackend } from '@angular/http';
  * import { InMemoryBackendConfig, InMemoryBackendService, SEED_DATA } from '../in-memory-backend/in-memory-backend.service';
  * import { InMemoryStoryService } from '../api/in-memory-story.service';
  *
