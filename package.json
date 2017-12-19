@@ -20,7 +20,7 @@
   },
   "keywords": [],
   "author": "Ward R. Bell",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/wardbell/a2-in-memory-web-api/issues"
   },
